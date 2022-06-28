@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import NavBar from './NavBar.vue'
 
 defineProps<{ msg: string }>()
 
@@ -7,13 +8,15 @@ const count = ref(0)
 </script>
 
 <template>
+  <NavBar></NavBar>
+  <img style="width: 200px;" alt="Vue logo" src="../assets/veloLogo.png" />
   <h1>{{ msg }}</h1>
 
   <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
     +
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
+    <a href="https://github.com/Cadalbek/geoBikeTools/tree/main/geoBikeTools" target="_blank">Cadalbek Git URL</a>
   </p>
 
   <p>See <code>README.md</code> for more information.</p>
@@ -27,10 +30,7 @@ const count = ref(0)
   </p>
 
   <button type="button" @click="count++">count is: {{ count }}</button>
-  <p>
-    Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p>
+  <p>Edit<code>components/HelloWorld.vue</code> to test hot module replacement.</p>
 </template>
 
 <style scoped>
