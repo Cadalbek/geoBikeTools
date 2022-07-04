@@ -1,10 +1,11 @@
-<script setup lang="ts">
-import { ref } from 'vue'
+<script>
 import NavBar from './NavBar.vue'
-
-defineProps<{ msg: string }>()
-
-const count = ref(0)
+export default {
+  name: "helloworld",
+      components: {
+      NavBar
+  }
+}
 </script>
 
 <template>

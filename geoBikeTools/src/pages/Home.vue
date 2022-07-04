@@ -1,10 +1,17 @@
-<script setup lang="ts">
+<script>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
+import HelloWorld from '../components/HelloWorld.vue';
+export default {
+    name: "home",
+        components: {
+        HelloWorld
+    }
+}
 </script>
 
 <template>
-  <router-view></router-view>
+  <HelloWorld msg="GeobikeTools Launching project" />
 </template>
 
 <style>
