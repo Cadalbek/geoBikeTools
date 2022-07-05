@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <img style="width: 25px;" alt="Vue logo" src="../assets/veloLogo.png" />
+      <img style="width: 25px; margin-right: 15px;" alt="Vue logo" src="../assets/veloLogo.png" />
       <a class="navbar-brand" href="#">geoBikeTools</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
         aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -14,6 +14,9 @@
           </li>
           <li class="nav-item">
             <router-link class="nav-link" to="/carte">Carte</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link" to="/apropos">A Propos</router-link>
           </li>
         </ul>
         <form class="d-flex">

@@ -1,5 +1,6 @@
 import Home from '../pages/Home.vue';
 import Carte from '../pages/Carte.vue';
+import APropos from '../pages/APropos.vue';
 
 import {
   createRouter,
@@ -16,6 +17,11 @@ const routes = [
     path: '/carte',
     component: Carte,
     name : 'carte'
+  },
+  {
+    path: '/apropos',
+    component: APropos,
+    name : 'apropos'
   }
 ];
 
